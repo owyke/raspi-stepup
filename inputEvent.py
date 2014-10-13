@@ -19,3 +19,5 @@ GPIO.add_event_detect(21, GPIO.RISING, callback=toggleLed, bouncetime=300)
 while True:
    print(".")
    time.sleep(1)
+
+
